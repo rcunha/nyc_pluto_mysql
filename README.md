@@ -10,11 +10,14 @@ You have a MySQL database user that can create a database.
 - Create a MySQL database: 
 
 <code> create database nyc; </code>
+
 <code> use nyc; </code>
 
 
 Run the script that creates database objects and loads them from the csv files.
-<code> mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc
-source pluto_16v1_load.sql</code>
+
+<code> mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc </code>
+
+<code> source pluto_16v1_load.sql </code>
 
 
