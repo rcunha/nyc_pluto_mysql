@@ -7,10 +7,10 @@ Unzip it. It'll create folder nyc_pluto_16v1.
 Assumption:
 You have a MySQL database user that can create a database.
 
-Create a MySQL database:
-<code>
-  create database nyc;
-  use nyc;
+Create a MySQL database: 
+<code> 
+  create database nyc; 
+  use nyc; 
 </code>
 
 <code>
