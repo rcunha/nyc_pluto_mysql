@@ -8,12 +8,17 @@ Assumption:
 You have a MySQL database user that can create a database.
 
 - Create a MySQL database: 
-<code> create database nyc; </code>
-<code> use nyc; </code>
+
+<code> 
+create database nyc;
+
+use nyc; 
+</code>
 
 <code>
-mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc <br>
-source pluto_16v1_load.sql <br>
+mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc
+
+source pluto_16v1_load.sql
 </code>
 
 
