@@ -11,7 +11,7 @@ use nyc;
 ```
 - Run the script that creates database objects and loads them from the csv files.
 ```
-mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc
+mysql -h <host> -u <mysql_user> -p<mysql_pwd> -D nyc --verbose < pluto_16v1_load.sql 
 source pluto_16v1_load.sql
 ```
 
